@@ -1,0 +1,5 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+export default function handler(req, res) {
+  res.status(200).json({"retCd":"0","retObject":[{"spaceUUID":"ID-1","spaceName":"Space1"},{"spaceUUID":"ID-2","spaceName":"Space2"}]})
+}
